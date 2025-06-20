@@ -11,7 +11,7 @@ function handleNewTaskButtonClick() {
 
 const bodyContainer = document.querySelector('.board-app');
 
-const END_POINT = 'https://68552cc86a6ef0ed6631905a.mockapi.io';
+const END_POINT = 'https://68552cc86a6ef0ed6631905a.mockapi.io/tasks';
 const tasksModel = new TasksModel({
     tasksApiService: new TasksApiService(END_POINT)
 });
